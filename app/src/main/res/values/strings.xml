@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Locaport</string>
+    <string name="tile_label">Locaport</string>
+
+    <string name="status_stopped">Server stopped</string>
+    <string name="status_running">Server running</string>
+    <string name="status_starting">Starting…</string>
+    <string name="status_subtitle_stopped">Start to browse this phone from another device.</string>
+    <string name="status_subtitle_running">Clients can browse this device until you stop it.</string>
+
+    <string name="action_start">Start server</string>
+    <string name="action_stop">Stop server</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_copy_explorer">Copy Explorer path</string>
+
+    <string name="label_address">Browser</string>
+    <string name="label_windows">Windows / WebDAV</string>
+    <string name="label_pin">PIN</string>
+    <string name="label_username">Username</string>
+
+    <string name="how_to_title">Connect</string>
+    <string name="how_to_body">1. Same network.\n2. Open the address, or map the Explorer path.\n3. Sign in with the username and PIN above.</string>
+    <string name="cert_note">Self‑signed certificate: choose Advanced → Proceed.</string>
+
+    <string name="options_title">Options</string>
+    <string name="option_read_only">Read‑only access</string>
+    <string name="option_read_only_summary">Clients can download but cannot change files.</string>
+    <string name="option_auto_stop">Stop when idle</string>
+    <string name="option_auto_stop_summary">After 10 minutes without a request.</string>
+    <string name="option_stop_on_lock">Stop when screen locks</string>
+    <string name="option_stop_on_lock_summary">Close the server as soon as the device locks.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_access">Access</string>
+    <string name="settings_username">Username</string>
+    <string name="settings_username_summary">Default: locaport</string>
+    <string name="settings_fixed_pin">Fixed PIN</string>
+    <string name="settings_fixed_pin_summary">Use the same 6‑digit PIN every time.</string>
+    <string name="settings_pin">PIN</string>
+    <string name="settings_applies">Changes apply when the server restarts.</string>
+
+    <string name="settings_network">Network</string>
+    <string name="settings_device_name">Device name</string>
+    <string name="settings_device_name_summary">Shown in Explorer and the browser.</string>
+    <string name="settings_http">Windows / WebDAV (HTTP)</string>
+    <string name="settings_http_summary">Digest auth keeps the PIN off the wire.</string>
+    <string name="settings_http_port">HTTP port</string>
+
+    <string name="settings_credits">Locaport %1$s</string>
+    <string name="credits_github">github.com/heyharshitrai/locaport</string>
+    <string name="credits_license">Apache-2.0</string>
+
+    <string name="notification_channel_name">File server</string>
+    <string name="notification_channel_desc">Shown while the Locaport server is running.</string>
+    <string name="notification_title">Locaport running</string>
+    <string name="notification_text">%1$s · tap to open</string>
+    <string name="notification_stop">Stop</string>
+
+    <string name="toast_permission_needed">Storage access is required to serve files.</string>
+    <string name="toast_no_wifi">Connect to Wi‑Fi, or turn on the hotspot, then try again.</string>
+    <string name="toast_copied">Address copied</string>
+    <string name="toast_port_invalid">Enter a port between 1024 and 65535.</string>
+    <string name="toast_pin_invalid">PIN must be exactly 6 digits. Fixed PIN turned off.</string>
+</resources>
