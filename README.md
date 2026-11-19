@@ -8,6 +8,12 @@ a cable, cloud account or companion client.
 The application supports Wi-Fi, the phone's own hotspot, USB tethering and
 Ethernet. The minimum supported Android version is 11.
 
+## Screenshot
+
+<p align="center">
+  <img src="docs/screenshots/home.jpg" alt="Locaport home screen" width="360">
+</p>
+
 ## Features
 
 - **Browser file manager.** Browse, download and upload files from any modern
@@ -22,7 +28,7 @@ Ethernet. The minimum supported Android version is 11.
 - **Access control.** QR code or address pairing, a configurable username, and
   either a random PIN per session or a fixed six-digit PIN.
 - **Operational controls.** Read-only mode, idle shutdown, screen-lock
-  shutdown, a foreground service and a Quick Settings tile.
+  shutdown, and a foreground notification with a stop action.
 - **Optional encryption.** An HTTPS listener with a self-signed certificate is
   available alongside the default HTTP listener.
 
@@ -125,7 +131,7 @@ app/src/main/java/app/locaport/files/
 │   ├── FileOps.java              path validation, copy, delete
 │   ├── Tls.java                  self-signed certificate
 │   └── Mdns.java                 mDNS advertisement
-├── ui/                           main screen, settings, tile, notification
+├── ui/                           main screen, settings, notification
 └── util/                         preferences, address selection, QR
 ```
 
